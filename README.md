@@ -1,0 +1,4 @@
+# Convolutional-Neural-Network
+The dataset for the classification task is a subset from the MNIST dataset. I randomly selected four different categories and 500 training and 100 testing samples for each category. Therefore, the total size of the training and testing samples is 2000 and 400 respectively. 
+
+The CNN is trained with a fixed epoch number and initialization of parameters. The total epoch number is 10 and the learning rate is 0.001. The batch size for the training and testing process is set to 100 and 1 respectively. The number of feature maps in the convolutional layer is 6 and the size of the filters is set to 5*5. The size of the pooling layer is 2*2 and the ReLU activation function is set to default. The number of neurons of the first fully-connected layer is set to 32. A cross-entropy loss with softmax activation function is utilized to train the CNN.
